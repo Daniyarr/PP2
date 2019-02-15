@@ -11,15 +11,14 @@ namespace Task4
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());                 // we change string to char than char to integer
-            for(int i = 1;i <= n; i++)                             //than we 
-            {
-                int t = i;
-                while(t != 0)
+            for(int i = 1;i <= n; i++) {                           // than add array a[i] than it run to size n
+                int t = i;                                         // than we add integer t and equate to i
+                while(t != 0)                                      // while int t don't equal to 0 we add [*]
                 {
-                    Console.Write("[*]");
+                    Console.Write("[*]");                          // and t is decrised while t don't equal 0
                     t--;
                 }
-                Console.WriteLine();
+                Console.WriteLine();                               // here we add endline
             }
         }
     }
